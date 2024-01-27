@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main {
+    @apply container h-screen mx-auto px-5;
+  }
+}
+
+@import url(../node_modules/animate.css/animate.css);
